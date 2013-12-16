@@ -13,8 +13,8 @@ var bootup = function() {
 
   app.get('/', function(req, res) {
     res.render('index', {
-                pageTitle:'Simple Express 3 and Jade example'
-        });
+      pageTitle:'Basic Express starter app'
+    });
   });
 
 
